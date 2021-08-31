@@ -1,0 +1,29 @@
+{
+  "name": "mqtt-broker-pub-sub-mysql",
+  "version": "1.0.0",
+  "description": "Development of a mqtt broker with publisher and subcriber, saving data in the database.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsandrade00/mqtt-broker-pub-sub-mysql.git"
+  },
+  "keywords": [
+    "mqtt",
+    "javascript"
+  ],
+  "author": "Gabrielle Andrade <gsandrade00>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsandrade00/mqtt-broker-pub-sub-mysql/issues"
+  },
+  "homepage": "https://github.com/gsandrade00/mqtt-broker-pub-sub-mysql#readme",
+  "dependencies": {
+    "jsonschema": "^1.2.6",
+    "mosca": "^2.8.3",
+    "mqtt": "^4.2.8",
+    "mysql": "^2.18.1"
+  }
+}
